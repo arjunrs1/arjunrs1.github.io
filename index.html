@@ -85,6 +85,43 @@
               </td>
             </tr>
 
+            <tr onmouseout="comp_aug_stop()" onmouseover="comp_aug_start()">
+              <td style="padding:20px;width:25%;vertical-align:middle">
+                <div class="one">
+                  <div class="two" id='ss_vam_image'><video  width=100% height=100% muted autoplay loop>
+                  <source src="images/comp_aug.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                  </video></div>
+                  <img src='images/comp_aug.png' width="160">
+                </div>
+                <script type="text/javascript">
+                  function comp_aug_start() {
+                    document.getElementById('comp_aug_image').style.opacity = "1";
+                  }
+
+                  function comp_aug_stop() {
+                    document.getElementById('comp_aug_image').style.opacity = "0";
+                  }
+                  ss_vam_stop()
+                </script>
+              </td>
+              <td style="padding:20px;width:75%;vertical-align:middle">
+                <a href="https://arxiv.org/abs/2211.05047">
+                  <span class="papertitle">A Comparative Study of Data Augmentation Techniques for Deep Learning Based Emotion Recognition</span>
+                </a>
+                <br>
+                <strong>Arjun Somayazulu</strong>,
+                <a href="https://ravi-0841.github.io/">Ravi Shankar</a>,
+                <a>Abdouh Harouna</a>,
+                <strong>Arjun Somayazulu</strong>,
+                <a href="https://www.bu.edu/eng/profile/archana-venkataraman-ph-d/">Archana Venkataraman</a>,
+                <br>
+                <em>ArXiv</em>
+                <a href="https://arxiv.org/abs/2211.05047">paper</a>
+                <p></p>
+              </td>
+            </tr>
+
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           <tr>
