@@ -106,6 +106,7 @@
   
   .name {
     padding: 20px;
+    margin: 0;
     font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
     font-size: 34px;
   }
