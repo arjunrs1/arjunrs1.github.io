@@ -22,7 +22,7 @@
                 <p class="name" style="text-align: center;">
                   Arjun Somayazulu
                 </p>
-                <p>I'm a second-year Ph.D. student at UT Austin advised by Prof. <a href="https://www.cs.utexas.edu/users/grauman/">Kristen Grauman</a></a>. I'm
+                <p>I'm a second-year Ph.D. student at UT Austin advised by Prof. <a href="https://www.cs.utexas.edu/users/grauman/">Kristen Grauman</a>. I'm
                   broadly interested in Computer Vision and multi-modal learning, and my current line of research is in Audio-Visual learning.
                 </p>
                 <p>
@@ -46,7 +46,42 @@
             </tr>
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>      
+            
+            <tr onmouseout="ego_exo_stop()" onmouseover="ego_exo_start()">
+              <td style="padding:20px;width:25%;vertical-align:middle">
+                <div class="one">
+                  <div class="two" id='ego_exo_image'><video  width=100% height=100% muted autoplay loop>
+                  <source src="images/ego_exo.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                  </video></div>
+                  <img src='images/ego_exo_figure.png' width="160">
+                </div>
+                <script type="text/javascript">
+                  function ss_vam_start() {
+                    document.getElementById('ego_exo_image').style.opacity = "1";
+                  }
 
+                  function ss_vam_stop() {
+                    document.getElementById('ego_exo_image').style.opacity = "0";
+                  }
+                  ss_vam_stop()
+                </script>
+              </td>
+              <td style="padding:20px;width:75%;vertical-align:middle">
+                <a href="https://vision.cs.utexas.edu/projects/ss_vam/">
+                  <span class="papertitle">Self-Supervised Visual Acoustic Matching</span>
+                </a>
+                <br>
+                <a>Kristen Grauman</a>,
+                <strong>Arjun Somayazulu</strong>,
+                
+                <br>
+                ArXiv 2023
+                <br>
+                <p></p>
+              </td>
+            </tr>
+            
             <tr onmouseout="ss_vam_stop()" onmouseover="ss_vam_start()">
               <td style="padding:20px;width:25%;vertical-align:middle">
                 <div class="one">
@@ -54,7 +89,7 @@
                   <source src="images/ss_vam.mp4" type="video/mp4">
                   Your browser does not support the video tag.
                   </video></div>
-                  <img src='images/ss_vam.png' width="160">
+                  <img src='images/ss_vam_figure.png' width="160">
                 </div>
                 <script type="text/javascript">
                   function ss_vam_start() {
