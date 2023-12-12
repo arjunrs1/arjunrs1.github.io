@@ -144,4 +144,5 @@ font-weight: bold; /* This makes sure that strong is always bold */
 
 em {
 font-style: italic; /* This will make sure that <em> is always italicized */
+font-weight: normal;
 }
