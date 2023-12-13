@@ -128,7 +128,7 @@ h2 {
 }
 
 span.highlight {
-  background-color: #ffffd0;
+  background-color: rgb(252, 252, 247);;
 }
 .paper-entry {
   margin-bottom: 20px; /* Adjust this value to the gap you want */
@@ -136,6 +136,7 @@ span.highlight {
 
 body {
 line-height: 1.6; /* This is a multiplier of your font size */
+background-color: rgb(252, 252, 247);
 }
 
 strong {
