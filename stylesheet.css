@@ -35,9 +35,9 @@ strong {
 
 h2 {
   margin: 0;
-  font-weight: normal;
   font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
   font-size: 30px;
+  font-weight: bold;
 }
 
 .papertitle {
@@ -52,14 +52,22 @@ h2 {
 }
 
 .one {
-  width: 160px;
-  height: 160px;
+  width: 260px;
+  height: auto;
   position: relative;
 }
 
+.one img {
+  width: 100%;
+  height: auto;
+  display: block; /* Removes bottom space/gap under the image */
+}
+
 .two {
-  width: 160px;
-  height: 160px;
+  width: 260px;
+  height: 260px;
+  top: 0; /* Align with the top of the container */
+  left: 0;
   position: absolute;
   transition: opacity .2s ease-in-out;
   -moz-transition: opacity .2s ease-in-out;
@@ -77,6 +85,8 @@ span.highlight {
 }
 .paper-entry {
   margin-bottom: 20px; /* Adjust this value to the gap you want */
+  display: flex;
+  align-items: center;
 }
 
 body {
