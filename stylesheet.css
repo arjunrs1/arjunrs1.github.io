@@ -86,7 +86,7 @@ span.highlight {
 .paper-entry {
   margin-bottom: 20px; /* Adjust this value to the gap you want */
   display: flex;
-  align-items: center;
+  align-items: top;
 }
 
 body {
