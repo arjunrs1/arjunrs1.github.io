@@ -76,7 +76,7 @@ span.highlight {
 body {
   line-height: 1.6; /* This is a multiplier of your font size */
   background-color: rgb(252, 252, 247);
-  font-family: 'Titillium Web', Verdana, Helvetica, sans-serif; /* Add this line if you want the body font to be Titillium Web */
+  font-family: 'Titillium Web'; /* Add this line if you want the body font to be Titillium Web */
   font-size: 18px; /* Change this value to the desired body font size */
 }
 
