@@ -16,7 +16,12 @@ a:hover {
 td,
 th,
 tr,
-p,
+
+p {
+  font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
+  font-size: 24px;
+}
+
 a {
   font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
   font-size: 18px;
