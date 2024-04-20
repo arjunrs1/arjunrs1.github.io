@@ -30,6 +30,11 @@
                 <p>
                   Previously, I received B.S degrees in Computer Science and Biomedical Engineering from Johns Hopkins University, where I was advised by Prof. <a href="https://www.bu.edu/eng/profile/archana-venkataraman-ph-d/">Archana Venkataraman</a>.
                 </p>
+                <p style="text-align:center">
+                  <a href="files/CV_1_2024.pdf">CV</a> &nbsp;/&nbsp;
+                  <a href="mailto:ars7452@my.utexas.edu">Email</a> &nbsp;/&nbsp;
+                  <a href="https://github.com/arjunrs1/">Github</a>
+                </p>
               </td>
               <td style="padding:2.5%;width:40%;max-width:40%">
                 <a href="images/profile_photo_trimmed.jpg"><img style="width:100%;max-width:100%;object-fit: cover; border-radius: 0%;" alt="profile photo" src="images/profile_photo_trimmed.jpg" class="hoverZoomLink"></a>
@@ -37,7 +42,7 @@
             </tr>
           </tbody></table>
 
-          <!-- <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
               <tr>
                 <td style="padding:5px;width:100%;vertical-align:top">
@@ -50,7 +55,7 @@
                 </td>
               </tr>
             </tbody>
-          </table> -->
+          </table>
 
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
               <tr>
@@ -59,7 +64,39 @@
               </td>
             </tr>
           </tbody></table>
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>      
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr class="paper-entry" onmouseout="active_rir_stop()" onmouseover="active_rir_start()">
+              <td style="padding:5px;width:25%;vertical-align:top">
+                <div class="one">
+                  <div class="two" id='active_rir_image'></div>
+                  <img src='images/active_rir_figure.png' width="260" alt="active_rir figure">
+                </div>
+                <script>
+                  function active_rir_start() {
+                    document.getElementById('active_rir_image').style.opacity = "1";
+                  }
+
+                  function active_rir_stop() {
+                    document.getElementById('active_rir_image').style.opacity = "0";
+                  }
+                  active_rir_stop()
+                </script>
+              </td>
+              <td style="padding:5px;width:75%;vertical-align:top">
+                <a>
+                  <span class="papertitle">ActiveRIR: Active Audio-Visual Exploration for
+                    Acoustic Environment Modeling</span>
+                </a>
+                <br>
+                <strong>Arjun Somayazulu</strong>,
+                Sagnik Majumder,
+                Changan Chen,
+                Kristen Grauman,
+                <br>
+                <em>ArXiv</em> 2024 (under submission)
+                <br>
+              </td>
+            </tr>      
             
             <tr class="paper-entry" onmouseout="ego_exo_stop()" onmouseover="ego_exo_start()">
               <td style="padding:5px;width:25%;vertical-align:top">
@@ -189,7 +226,7 @@ Michael Wray.
           <tbody>
             <tr>
               <td style="padding:5px;width:100%;vertical-align:top">
-                <h2>Teaching</h2>
+                <h2>Teaching/Service</h2>
               </td>
             </tr>
             <tr>
@@ -200,6 +237,11 @@ Michael Wray.
             <tr>
               <td style="padding:5px 20px;width:100%;vertical-align:top">
                 <strong>Fall 2021 -</strong> Course Assistant, EN.601.475/675 Machine Learning
+              </td>
+            </tr>
+            <tr>
+              <td style="padding:5px 20px;width:100%;vertical-align:top">
+                Reviewer for <strong>CVPR 2024, IROS 2024</strong>
               </td>
             </tr>
           </tbody>
