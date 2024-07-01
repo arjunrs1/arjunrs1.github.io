@@ -100,3 +100,7 @@ em {
 font-style: italic; /* This will make sure that <em> is always italicized */
 font-weight: normal;
 }
+
+.red {
+  color: red;
+}
