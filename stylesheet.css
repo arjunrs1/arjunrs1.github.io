@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;400i;700i&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700;300i;700i&display=swap');
 
 /* latin-ext */
 
@@ -20,11 +20,13 @@ tr,
 p {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 24px;
+  font-weight: 300; /* Added lighter weight */
 }
 
 a {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 24px;
+  font-weight: 300; /* Added lighter weight */
 }
 
 strong {
@@ -90,10 +92,11 @@ span.highlight {
 }
 
 body {
-  line-height: 1.6; /* This is a multiplier of your font size */
+  line-height: 1.6;
   background-color: rgb(252, 252, 247);
-  font-family: 'Lato'; /* Changed from Titillium Web to Lato */
-  font-size: 24px; /* Change this value to the desired body font size */
+  font-family: 'Lato'; 
+  font-size: 24px;
+  font-weight: 300; /* Added lighter weight */
 }
 
 em {
