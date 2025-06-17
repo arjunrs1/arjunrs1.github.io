@@ -24,8 +24,8 @@
                 <p class="name" style="text-align: center;">
                   Arjun Somayazulu
                 </p>
-                <p>I'm a second-year Ph.D. student at UT Austin advised by Prof. <a href="https://www.cs.utexas.edu/users/grauman/">Kristen Grauman</a>. I'm
-                  broadly interested in computer vision and multi-modal perception, and my current line of research is in learning from video and audio.
+                <p>I'm a third-year Ph.D. student at UT Austin advised by Prof. <a href="https://www.cs.utexas.edu/users/grauman/">Kristen Grauman</a>. I'm
+                  broadly interested in computer vision and multi-modal perception, and my current line of research is in multi-modal video understanding using vision, language, audio, and 3D human pose.
                 </p>
                 <p>
                   Previously, I received B.S degrees in Computer Science and Biomedical Engineering from Johns Hopkins, where I was advised by Prof. <a href="https://www.bu.edu/eng/profile/archana-venkataraman-ph-d/">Archana Venkataraman</a>.
@@ -51,12 +51,12 @@
               </tr>
               <tr>
                 <td style="padding:5px 20px;width:100%;vertical-align:top">
-                  <strong>May 2024</strong> Our IROS 2024 paper, <a href="https://vision.cs.utexas.edu/projects/active_rir/">ActiveRIR</a>, is featured on <a href="https://techxplore.com/news/2024-05-approach-efficiently-acoustics-environment.html">TechXplore</a>
+                  <strong>May 2024</strong> Our IROS 2024 Oral, <a href="https://vision.cs.utexas.edu/projects/active_rir/">ActiveRIR</a>, is featured on <a href="https://techxplore.com/news/2024-05-approach-efficiently-acoustics-environment.html">TechXplore</a>
                 </td>
               </tr>
               <tr>
                 <td style="padding:5px 20px;width:100%;vertical-align:top">
-                  <strong>May 2024</strong> Joining <a href="https://ai.meta.com/research/">FAIR NY</a> for the summer!
+                  <strong>May 2024</strong> Joining <a href="https://ai.meta.com/research/">Meta FAIR</a> in New York for the summer, working on video temporal grounding.
                 </td>
               </tr>
             </tbody>
@@ -70,6 +70,39 @@
             </tr>
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr class="paper-entry" onmouseout="view_inv_stop()" onmouseover="view_inv_start()">
+              <td style="padding:5px;width:25%;vertical-align:top">
+                <div class="one">
+                  <div class="two" id='view_inv_image'></div>
+                  <img src='images/view_inv_figure.pdf' width="260" alt="view_inv figure">
+                </div>
+                <script>
+                  function view_inv_start() {
+                    document.getElementById('view_inv_image').style.opacity = "1";
+                  }
+
+                  function view_inv_stop() {
+                    document.getElementById('view_inv_image').style.opacity = "0";
+                  }
+                  view_inv_stop()
+                </script>
+              </td>
+              <td style="padding:5px;width:75%;vertical-align:top">
+                <a href="https://vision.cs.utexas.edu/projects/view_inv_learning/">
+                  <span class="papertitle">Learning Activity View-invariance Under Extreme Viewpoint Changes via Curriculum Knowledge Distillation</span>
+                </a>
+                <br>
+                <strong>Arjun Somayazulu</strong>,
+                Sagnik Majumder,
+                Changan Chen,
+                Kristen Grauman,
+                <br>
+                <em>arXiv 2025 (Under submission)</em>
+                <br>
+                <a href="https://arxiv.org/abs/2504.05451">arXiv</a>
+              </td>
+            </tr> 
+
             <tr class="paper-entry" onmouseout="active_rir_stop()" onmouseover="active_rir_start()">
               <td style="padding:5px;width:25%;vertical-align:top">
                 <div class="one">
@@ -99,10 +132,13 @@
                 Kristen Grauman,
                 <br>
                 <em>IROS 2024</em>
+                <span class="red">(Oral)</span>
                 <br>
                 <a href="https://vision.cs.utexas.edu/projects/active_rir/">project</a>
                 |
                 <a href="https://arxiv.org/abs/2404.16216">paper</a>
+                |
+                <a href="https://techxplore.com/news/2024-05-approach-efficiently-acoustics-environment.html">press</a>
               </td>
             </tr>      
             
@@ -250,7 +286,7 @@ Michael Wray.
             </tr>
             <tr>
               <td style="padding:5px 20px;width:100%;vertical-align:top">
-                Reviewer for <strong>CVPR 2024, IROS 2024</strong>
+                Reviewer for <strong>CVPR 2024, IROS 2024, CVPR 2025, NeurIPS 2025, CVIU 2025</strong>
               </td>
             </tr>
           </tbody>
