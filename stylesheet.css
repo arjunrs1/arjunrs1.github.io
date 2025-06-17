@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;700;400i;700i&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;400i;700i&display=swap');
 
 /* latin-ext */
 
@@ -18,36 +18,36 @@ th,
 tr,
 
 p {
-  font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 24px;
 }
 
 a {
-  font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 24px;
 }
 
 strong {
-  font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 24px;
   font-weight: bold;
 }
 
 h2 {
   margin: 0;
-  font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 30px;
   font-weight: bold;
 }
 
 .papertitle {
-  font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 30px;
   font-weight: 700;
 }
 
 .name {
-  font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 56px;
 }
 
@@ -92,7 +92,7 @@ span.highlight {
 body {
   line-height: 1.6; /* This is a multiplier of your font size */
   background-color: rgb(252, 252, 247);
-  font-family: 'Titillium Web'; /* Add this line if you want the body font to be Titillium Web */
+  font-family: 'Lato'; /* Changed from Titillium Web to Lato */
   font-size: 24px; /* Change this value to the desired body font size */
 }
 
