@@ -97,6 +97,75 @@
             </tr>
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr class="paper-entry" onmouseout="expert_edit_stop()" onmouseover="expert_edit_start()">
+              <td style="padding:10px 5px;width:25%;vertical-align:top">
+                <div class="one">
+                  <div class="two" id='expert_edit_image'></div>
+                  <img src='images/expert_edit_figure.png' width="260" alt="ExpertEdit figure">
+                </div>
+                <script>
+                  function expert_edit_start() {
+                    document.getElementById('expert_edit_image').style.opacity = "1";
+                  }
+
+                  function expert_edit_stop() {
+                    document.getElementById('expert_edit_image').style.opacity = "0";
+                  }
+                  expert_edit_stop()
+                </script>
+              </td>
+              <td style="padding:10px 5px;width:75%;vertical-align:top">
+                <a href="https://vision.cs.utexas.edu/projects/expert_edit/">
+                  <span class="papertitle">ExpertEdit: Learning Skill-Aware Motion Editing from Expert Videos</span>
+                </a>
+                <br>
+                <strong>Arjun Somayazulu</strong>,
+                Kristen Grauman,
+                <br>
+                <em>arXiv 2026</em>
+                <br>
+                <a href="https://vision.cs.utexas.edu/projects/expert_edit/">project</a>
+                |
+                <a href="https://arxiv.org/abs/2604.10466">paper</a>
+              </td>
+            </tr>
+
+            <tr class="paper-entry" onmouseout="fewshot_rir_stop()" onmouseover="fewshot_rir_start()">
+              <td style="padding:10px 5px;width:25%;vertical-align:top">
+                <div class="one">
+                  <div class="two" id='fewshot_rir_image'></div>
+                  <img src='images/fewshot_rir_figure.png' width="260" alt="few-shot RIR figure">
+                </div>
+                <script>
+                  function fewshot_rir_start() {
+                    document.getElementById('fewshot_rir_image').style.opacity = "1";
+                  }
+
+                  function fewshot_rir_stop() {
+                    document.getElementById('fewshot_rir_image').style.opacity = "0";
+                  }
+                  fewshot_rir_stop()
+                </script>
+              </td>
+              <td style="padding:10px 5px;width:75%;vertical-align:top">
+                <a href="https://vision.cs.utexas.edu/projects/fewShot-RIR/">
+                  <span class="papertitle">Sample-efficient Audio-Visual Learning of Scene Acoustics</span>
+                </a>
+                <br>
+                <strong>Arjun Somayazulu</strong>,
+                Sagnik Majumder,
+                Changan Chen,
+                Ziad Al-Halah,
+                Kristen Grauman,
+                <br>
+                <em>IJCV 2026 (Special Issue on Audio-Visual Generation)</em>
+                <br>
+                <a href="https://vision.cs.utexas.edu/projects/fewShot-RIR/">project</a>
+                |
+                <a href="https://link.springer.com/epdf/10.1007/s11263-026-02767-6?sharing_token=kKRThZiddmzipY2ADOz9G_e4RwlQNchNByi7wbcMAY6iXgOaIJ0bMoKqMclX7TZPzR6E8HeqNULZjDFj-wMkoZQQT4s-96NQHwe6NNIfHfagrQoFWOjcMf7qLPNbmtHamxPPx39zXjmTY_t7mFpyPV_xTgRKI_d2As1G9NbTm6Y%3D">paper</a>
+              </td>
+            </tr>
+
             <tr class="paper-entry" onmouseout="view_inv_stop()" onmouseover="view_inv_start()">
               <td style="padding:10px 5px;width:25%;vertical-align:top">
                 <div class="one">
